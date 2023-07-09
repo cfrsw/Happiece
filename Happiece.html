@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happiece official website</title>
+  <meta name="description" content="小さな幸せをテーマにしたベビー服と子ども服の仮想ファッション通販サイトです。">
+  <link rel="stylesheet" href="./css/Happiece.css">
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://kit.fontawesome.com/f4cf481ae1.js" crossorigin="anonymous"></script>
+  <!-- 画像クリックで拡大表示 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+  <!--------------------スライダー見た目-------------------------------------------------->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+<!-------------------------------------------------------------------------------------> 
+
+<!--------------------jQuery-----------------------------------------------------------> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!------------------------------------------------------------------------------------->  
+
+<!--------------------スライダー動かすやつ----------------------------------------------->  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<!-------------------------------------------------------------------------------------> 
+
+</head>
+<body>
+
+
+  <header>
+    <div class="header-banner"><img src="./images/header-banner.jpg" alt="バナー"></div>
+    <div class="header-inner">
+      <div class="logo-area">
+        <a class="header-logo" href="#top"><img src="./images/header-logo.svg" alt="Happiece"></a>
+        <p>ひとつ一つのアイテムにHappyを込めて<br>ベビーファッション＆雑貨のハッピース♪</p>
+      </div>
+      <div class="form-area">
+          <form action="#" class="search-form-002">
+            <label>
+                <input type="text"  placeholder="キーワードを入力">
+            </label>
+            <button type="submit" aria-label="検索"></button>
+        </form>
+      </div>
+      <div class="icon-area1">
+        <div class="icon">
+          <a href="#"><i class="fa-solid fa-heart" style="color: #565555;"></i></a>
+          <p>お気に入り</p>
+        </div>
+        <div class="icon">
+          <a href="#"><i class="fa-solid fa-bars" style="color: #565555;"></i></a>
+          <p>メニュー</p>
+        </div>
+      </div>
+      <div class="icon-area2">
+        <div class="icon search-icon">
+          <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #565555;"></i></a>
+        </div>
+        <div class="icon">
+          <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #565555;"></i></a>
+          <p>カート(0)</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="slider">
+      <div class="slider-inner">
+        <div class="slider-item">
+          <a href="./images/top1.jpg" data-lightbox="group"><img src="./images/top1.jpg"></a>
+        </div>
+        <div class="slider-item">
+          <a href="./images/top2.png" data-lightbox="group"><img src="./images/top2.png"></a>
+        </div>
+      </div>
+    </div>
+    <script>
+      $('.slider-inner').slick({
+          autoplay: true,       //自動再生
+          autoplaySpeed: 4000,  //自動再生のスピード
+          speed: 1000,           //スライドするスピード
+          dots: true,           //スライド下のドット
+          arrows: true,         //左右の矢印
+          infinite: true,       //永久にループさせる
+      });
+  </script>
+    <div class="category">
+      <h2>CATEGORY</h2>
+      <div class="group-container">
+        <div class="group"><img src="./images/boys.png" alt="">
+          <h3>BOYS</h3>
+        </div>
+        <div class="group"><img src="./images/girls.png" alt="">
+          <h3>GIRLS</h3>
+        </div>
+        <div class="group"><img src="./images/baby.png" alt="">
+          <h3>BABY</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="ranking">
+      <h2 class="head-border">RANKING</h2>
+      <div class="ranking-flex">
+        <div class="item"><img src="./images/item1.jpg" alt="">
+          <div class="first"><img src="./images/first.png" alt=""></div>
+        </div>
+        <div class="item"><img src="./images/item2.jpg" alt=""><div class="first"><img src="./images/second.png" alt=""></div></div>
+        <div class="item"><img src="./images/item3.jpg" alt=""><div class="first"><img src="./images/third.png" alt=""></div></div>
+        <div class="item"><img src="./images/item4.jpg" alt=""></div>
+        <div class="item"><img src="./images/item5.jpg" alt=""></div>
+        <div class="item"><img src="./images/item6.jpg" alt=""></div>
+      </div>
+    </div>
+
+    <div class="instagram">
+      <div class="bottom-border">
+        <div class="icon"><i class="fa-brands fa-instagram" style="color: #565555;"></i></div>
+        <h2>Instagram</h2>
+      </div>
+      <div class="instagram-grid">
+        <div class="instagram1"><a href="./images/instagram1.png" data-lightbox="group2"><img src="./images/instagram1.png"
+              alt="イメージ"></a></div>
+        <div class="instagram2"><a href="./images/instagram2.png" data-lightbox="group2"><img src="./images/instagram2.png"
+              alt="イメージ"></a></div>
+        <div class="instagram3"><a href="./images/instagram3.png" data-lightbox="group2"><img src="./images/instagram3.png"
+          alt="イメージ"></a></div>
+        <div class="instagram4"><a href="./images/instagram4.png" data-lightbox="group2"><img src="./images/instagram4.png"
+          alt="イメージ"></a></div>
+        <div class="instagram5"><a href="./images/instagram5.png" data-lightbox="group2"><img src="./images/instagram5.png"
+          alt="イメージ"></a></div>
+        <div class="instagram6"><a href="./images/instagram6.png" data-lightbox="group2"><img src="./images/instagram6.png"
+          alt="イメージ"></a></div>
+        <div class="instagram7"><a href="./images/instagram7.png" data-lightbox="group2"><img src="./images/instagram7.png"
+          alt="イメージ"></a></div>
+        <div class="instagram8"><a href="./images/instagram8.png" data-lightbox="group2"><img src="./images/instagram8.png"
+          alt="イメージ"></a></div>
+        <div class="instagram9"><a href="./images/instagram9.png" data-lightbox="group2"><img src="./images/instagram9.png"
+          alt="イメージ"></a></div>
+      </div>
+    </div>
+
+    <div class="event">
+      <div class="title">
+        <div><img src="./images/flag1.png" alt=""></div>
+        <h2>SPECIAL EVENTS</h2>
+        <div><img src="./images/flag2.png" alt=""></div>
+      </div>
+      <div class="banner-grid">
+        <div class="banner1"><a href="./images/banner1.jpg" data-lightbox="group3"><img src="./images/banner1.jpg"
+              alt="バナー画像"></a></div>
+        <div class="banner2"><a href="./images/banner2.jpg" data-lightbox="group3"><img src="./images/banner2.jpg"
+              alt="バナー画像"></a></div>
+        <div class="banner3"><a href="./images/banner3.jpg" data-lightbox="group3"><img src="./images/banner3.jpg"
+              alt="バナー画像"></a></div>
+        <div class="banner4"><a href="./images/banner4.jpg" data-lightbox="group3"><img src="./images/banner4.jpg"
+              alt="バナー画像"></a></div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-inner">
+      <div class="icon-area3">
+        <div class="icon"><i class="fa-brands fa-twitter" style="color: #565555;"></i></div>
+        <div class="icon"><i class="fa-brands fa-instagram" style="color: #565555;"></i></div>
+      </div>
+      <div class="footer-logo"><img src="./images/footer-logo.svg" alt="ロゴ"></div>
+    </div>
+  </footer>
+</body>
+</html>
